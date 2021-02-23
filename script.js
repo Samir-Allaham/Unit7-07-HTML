@@ -4,6 +4,7 @@ document.getElementById('report').addEventListener('click', script)
 function script () {
   do {
     button = prompt('type in my age')
+    button = parseInt(button)
     if (age === button) {
       alert('Congradulations! You got it')
     } else if (age < button) {
